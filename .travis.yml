@@ -1,0 +1,8 @@
+language: java
+jdk:
+  -openjdk17
+before_install:
+  - chmod +x mvnw
+script:
+  - java --version
+  - ./mvnw clean install
